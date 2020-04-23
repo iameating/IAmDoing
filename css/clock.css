@@ -1,0 +1,10 @@
+.clock {
+    display: flex;
+    font-weight: 800;
+    position: fixed;
+    right: 0;
+    top: 82vh;
+    font-size: 1.5vw;
+    transform-style: preserve-3d;
+    margin: 20px;
+}

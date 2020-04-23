@@ -1,0 +1,74 @@
+.weather-container {
+    display: flex;
+    transform-style: preserve-3d;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: weatherAppear 2s ease-in-out;
+}
+
+@keyframes weatherAppear {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.weather__box1 {
+    position: relative;
+    top: 22vh;
+    margin: 0px 1vw;
+}
+
+.weather__icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.weather__description,
+.weather__location,
+.weather__humidityText {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.weather__box2 {
+    position: relative;
+    top: 25vh;
+    margin: 0px 1vw;
+}
+
+.weather__temperature {
+    width: 200px;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 200px;
+    font-stretch: 50%;
+    font-family: 'Nanum Pen Script', cursive;
+    margin-bottom: -1vh;
+}
+
+.weather__box3 {
+    position: relative;
+    top: 25vh;
+    margin: 0px 1vw;
+}
+
+.weather__humidity {
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 900;
+    font-size: 100px;
+    width: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: -1vh;
+}
